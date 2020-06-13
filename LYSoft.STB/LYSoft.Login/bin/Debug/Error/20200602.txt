@@ -1,0 +1,30 @@
+[2020年06月02日 10:13:55]   Error   线程ID:19860   源文件:   行号:0   函数名:AddToInt --> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LYSoft.DataBase.SQLite.ModelToSqlExtends.AddToInt[T](T model) 位置 F:\人脸识别Winfrom\LYSoft.Face\LYSoft.Face\Core\LYSoft.DataBase.SQLite\ModelToSqlExtends.cs:行号 75
+[2020年06月02日 14:13:29]   Error   线程ID:14208   源文件:   行号:0   函数名:Execute --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "SHSJ": syntax error
+   在 System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   在 System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   在 System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   在 System.Data.SQLite.SQLiteDataReader.NextResult()
+   在 System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   在 LYSoft.DataBase.SQLite.SQLiteHelper.Execute(String sql) 位置 F:\人脸识别Winfrom\LYSoft.Face\LYSoft.Face\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:行号 86
+[2020年06月02日 15:55:18]   Error   线程ID:11924   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "FROM": syntax error
+   在 System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   在 System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   在 System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   在 System.Data.SQLite.SQLiteDataReader.NextResult()
+   在 System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) 位置 G:\LYSoft.Face\LYSoft.Face\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:行号 143
+[2020年06月02日 18:00:16]   Error   线程ID:8276   源文件:   行号:0   函数名:CompareFeature --> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Luxand.FSDK.MatchFaces(Byte[]& FaceTemplate1, Byte[]& FaceTemplate2, Single& Similarity)
+   在 LYSoft.FaceSDK.FaceHelper.CompareFeature(Bitmap bitmap, Single& similarity, Int32& ryid) 位置 G:\LYSoft.Face\LYSoft.Face\Core\LYSoft.FaceSDK\FaceHelper.cs:行号 108

@@ -1,0 +1,8 @@
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\bin\x86\Release\NetDimension.NanUI.dll
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\bin\x86\Release\NetDimension.NanUI.pdb
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\obj\x86\Release\NetDimension.NanUI.AboutForm.resources
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\obj\x86\Release\NetDimension.NanUI.Properties.Resources.resources
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\obj\x86\Release\NetDimension.NanUI.RuntimeDownloadForm.resources
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\obj\x86\Release\NetDimension.NanUI.csproj.GenerateResource.Cache
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\obj\x86\Release\NetDimension.NanUI.dll
+D:\NETProject\YICAI\1.Core\NetDimension.NanUI\obj\x86\Release\NetDimension.NanUI.pdb

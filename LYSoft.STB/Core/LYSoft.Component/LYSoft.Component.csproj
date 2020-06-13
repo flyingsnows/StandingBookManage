@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8830C419-4922-491C-B191-773597270696}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LYSoft.Component</RootNamespace>
+    <AssemblyName>LYSoft.Component</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Portable.BouncyCastle.1.8.6\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v15.2.Drawing, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LYSoft.Login\bin\Debug\DevExpress.Printing.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LYSoft.Login\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LYSoft.Login\bin\Debug\DevExpress.XtraNavBar.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPdfViewer.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LYSoft.Login\bin\Debug\DevExpress.XtraTreeList.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="FaceSDK.NET">
+      <HintPath>..\..\Libs\FaceSDK.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NetDimension.NanUI">
+      <HintPath>..\NetDimension.NanUI\obj\Debug\NetDimension.NanUI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NPOI.2.5.1\lib\net40\NPOI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NPOI.2.5.1\lib\net40\NPOI.OOXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NPOI.2.5.1\lib\net40\NPOI.OpenXml4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NPOI.2.5.1\lib\net40\NPOI.OpenXmlFormats.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="xilibdevexpr.v15.2">
+      <HintPath>lib\xilibdevexpr.v15.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Excel管理\ExcelViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel管理\ExcelViewForm.Designer.cs">
+      <DependentUpon>ExcelViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ItemControl.Designer.cs">
+      <DependentUpon>ItemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraPdfViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraPdfViewer.Designer.cs">
+      <DependentUpon>XtraPdfViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="专家库管理\XtraExpertAddOrEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="专家库管理\XtraExpertAddOrEdit.Designer.cs">
+      <DependentUpon>XtraExpertAddOrEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="修改密码\XtraUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="修改密码\XtraUpdateUser.Designer.cs">
+      <DependentUpon>XtraUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="公文台账管理\XtraFileFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="公文台账管理\XtraFileFrom.Designer.cs">
+      <DependentUpon>XtraFileFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="公文台账管理\XtrafilesFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="公文台账管理\XtrafilesFrom.Designer.cs">
+      <DependentUpon>XtrafilesFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="招标议价登记\StripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="招标议价登记\StripForm.Designer.cs">
+      <DependentUpon>StripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="招标议价登记\XtraBiddingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="招标议价登记\XtraBiddingForm.Designer.cs">
+      <DependentUpon>XtraBiddingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="供应商管理\XtrasupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="供应商管理\XtrasupplierForm.Designer.cs">
+      <DependentUpon>XtrasupplierForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="供应商管理\XtraSupFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="供应商管理\XtraSupFrom.Designer.cs">
+      <DependentUpon>XtraSupFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="专家库管理\XtraexpertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="专家库管理\XtraexpertForm.Designer.cs">
+      <DependentUpon>XtraexpertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="用户管理\XtraUserInfoform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="用户管理\XtraUserInfoform.Designer.cs">
+      <DependentUpon>XtraUserInfoform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="附件PDF\PdfViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="附件PDF\PdfViewForm.Designer.cs">
+      <DependentUpon>PdfViewForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Excel管理\ExcelViewForm.resx">
+      <DependentUpon>ExcelViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemControl.resx">
+      <DependentUpon>ItemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="XtraPdfViewer.resx">
+      <DependentUpon>XtraPdfViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="专家库管理\XtraExpertAddOrEdit.resx">
+      <DependentUpon>XtraExpertAddOrEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="修改密码\XtraUpdateUser.resx">
+      <DependentUpon>XtraUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="公文台账管理\XtraFileFrom.resx">
+      <DependentUpon>XtraFileFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="公文台账管理\XtrafilesFrom.resx">
+      <DependentUpon>XtrafilesFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="招标议价登记\StripForm.resx">
+      <DependentUpon>StripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="招标议价登记\XtraBiddingForm.resx">
+      <DependentUpon>XtraBiddingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="供应商管理\XtrasupplierForm.resx">
+      <DependentUpon>XtrasupplierForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="供应商管理\XtraSupFrom.resx">
+      <DependentUpon>XtraSupFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="专家库管理\XtraexpertForm.resx">
+      <DependentUpon>XtraexpertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="用户管理\XtraUserInfoform.resx">
+      <DependentUpon>XtraUserInfoform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="附件PDF\PdfViewForm.resx">
+      <DependentUpon>PdfViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LYSoft.Center\LYSoft.Center.csproj">
+      <Project>{6A8A02A0-26B0-445D-B0FE-FBFDC2D4CCD8}</Project>
+      <Name>LYSoft.Center</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LYSoft.DataBase.SQLite\LYSoft.DataBase.SQLite.csproj">
+      <Project>{A0853904-D0D9-4C62-8BC1-A1EC94449750}</Project>
+      <Name>LYSoft.DataBase.SQLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LYSoft.Domain\LYSoft.Domain.csproj">
+      <Project>{FB3DEB6B-4C41-4A85-98A1-C1BCDEE86494}</Project>
+      <Name>LYSoft.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,34 @@
+[2020年06月01日 09:48:17]   Error   线程ID:11392   源文件:   行号:0   函数名:Execute --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+unrecognized token: "{"
+   在 System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   在 System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   在 System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   在 System.Data.SQLite.SQLiteDataReader.NextResult()
+   在 System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   在 LYSoft.DataBase.SQLite.SQLiteHelper.Execute(String sql) 位置 F:\人脸识别Winfrom\LYSoft.Face\LYSoft.Face\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:行号 86
+[2020年06月01日 10:58:23]   Error   线程ID:7336   源文件:   行号:0   函数名:CompareFeature --> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Luxand.FSDK.MatchFaces(Byte[]& FaceTemplate1, Byte[]& FaceTemplate2, Single& Similarity)
+   在 LYSoft.FaceSDK.FaceHelper.CompareFeature(Bitmap bitmap, Single& similarity, Int32& ryid) 位置 F:\人脸识别Winfrom\LYSoft.Face\LYSoft.Face\Core\LYSoft.FaceSDK\FaceHelper.cs:行号 108
+[2020年06月01日 12:54:44]   Error   线程ID:20904   源文件:   行号:0   函数名:ExecuteToKey --> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   在 System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   在 System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   在 System.Data.SQLite.SQLiteDataReader.NextResult()
+   在 System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteScalar(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteScalar()
+   在 LYSoft.DataBase.SQLite.SQLiteHelper.ExecuteToKey(String sql) 位置 F:\人脸识别Winfrom\LYSoft.Face\LYSoft.Face\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:行号 217
+[2020年06月01日 12:55:39]   Error   线程ID:20904   源文件:   行号:0   函数名:ExecuteToKey --> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   在 System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   在 System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   在 System.Data.SQLite.SQLiteDataReader.NextResult()
+   在 System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteScalar(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteScalar()
+   在 LYSoft.DataBase.SQLite.SQLiteHelper.ExecuteToKey(String sql)

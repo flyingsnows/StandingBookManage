@@ -1,0 +1,173 @@
+[2020年06月08日 21:21:25]   Error   线程ID:6972   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+no such table: _T_A_DATA_FILEMG
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143
+[2020年06月08日 21:30:03]   Error   线程ID:3364   源文件:   行号:0   函数名:AddToInt --> System.NullReferenceException: Object reference not set to an instance of an object.
+   at LYSoft.DataBase.SQLite.ModelToSqlExtends.AddToInt[T](T model) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\ModelToSqlExtends.cs:line 75
+[2020年06月08日 21:30:34]   Error   线程ID:3364   源文件:   行号:0   函数名:AddToInt --> System.NullReferenceException: Object reference not set to an instance of an object.
+   at LYSoft.DataBase.SQLite.ModelToSqlExtends.AddToInt[T](T model) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\ModelToSqlExtends.cs:line 75
+[2020年06月08日 21:33:40]   Error   线程ID:8876   源文件:   行号:0   函数名:AddToInt --> System.NullReferenceException: Object reference not set to an instance of an object.
+   at LYSoft.DataBase.SQLite.ModelToSqlExtends.AddToInt[T](T model) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\ModelToSqlExtends.cs:line 75
+[2020年06月08日 22:36:15]   Error   线程ID:7196   源文件:   行号:0   函数名:Execute --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "T_A_DATA_FILEMG": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at LYSoft.DataBase.SQLite.SQLiteHelper.Execute(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 86
+[2020年06月08日 22:36:19]   Error   线程ID:7196   源文件:   行号:0   函数名:Execute --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "T_A_DATA_FILEMG": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at LYSoft.DataBase.SQLite.SQLiteHelper.Execute(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 86
+[2020年06月08日 22:37:07]   Error   线程ID:2564   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "T_A_DATA_FILEMG": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143
+[2020年06月08日 22:37:11]   Error   线程ID:2564   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "T_A_DATA_FILEMG": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143
+[2020年06月08日 22:41:19]   Error   线程ID:7944   源文件:   行号:0   函数名:Execute --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "T_A_DATA_FILEMG": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at LYSoft.DataBase.SQLite.SQLiteHelper.Execute(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 86
+[2020年06月08日 22:42:36]   Error   线程ID:8736   源文件:   行号:0   函数名:Execute --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+unrecognized token: "1AND"
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at LYSoft.DataBase.SQLite.SQLiteHelper.Execute(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 86
+[2020年06月08日 22:43:42]   Error   线程ID:2412   源文件:   行号:0   函数名:Execute --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+unrecognized token: ":"
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at LYSoft.DataBase.SQLite.SQLiteHelper.Execute(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 86
+[2020年06月08日 23:21:33]   Error   线程ID:2952   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "%": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143
+[2020年06月08日 23:21:35]   Error   线程ID:2952   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "%": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143
+[2020年06月08日 23:21:47]   Error   线程ID:2952   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "%": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143
+[2020年06月08日 23:21:50]   Error   线程ID:2952   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "%": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143
+[2020年06月08日 23:21:53]   Error   线程ID:2952   源文件:   行号:0   函数名:QueryDataTable --> code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+near "%": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at LYSoft.DataBase.SQLite.SQLiteHelper.QueryDataTable(String sql) in D:\LYSoft.STB\Core\LYSoft.DataBase.SQLite\SQLiteHelper.cs:line 143

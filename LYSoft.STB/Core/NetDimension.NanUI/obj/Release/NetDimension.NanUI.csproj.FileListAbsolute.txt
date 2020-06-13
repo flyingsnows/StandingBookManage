@@ -1,0 +1,9 @@
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\bin\Release\NetDimension.NanUI.dll
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\bin\Release\NetDimension.NanUI.pdb
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\obj\Release\NetDimension.NanUI.csprojResolveAssemblyReference.cache
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\obj\Release\NetDimension.NanUI.AboutForm.resources
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\obj\Release\NetDimension.NanUI.Properties.Resources.resources
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\obj\Release\NetDimension.NanUI.RuntimeDownloadForm.resources
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\obj\Release\NetDimension.NanUI.csproj.GenerateResource.Cache
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\obj\Release\NetDimension.NanUI.dll
+D:\NETProject\Elane.EPMS.Solution\1.Core\NetDimension.NanUI\obj\Release\NetDimension.NanUI.pdb
